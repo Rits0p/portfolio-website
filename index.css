@@ -1,5 +1,114 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.slidebar {
+    background-color: rgb(89, 169, 216);
+    width: 434vw;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.slidebar nav {
+    padding: 30px;
+}
+
+.slidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+    text-decoration: nonev;
+}
+.slidebar nav li a{
+    text-decoration: none;
+}
+.main {
+    /* background-color: rgb(49, 162, 162); */
+    width: calc(100vw - 15vw);
+}
+
+.container {
+    display: flex;
+}
+
+.info {
+    /* background-color: red; */
+    height: 58vh;
+    width: 80vw;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
     
 }
+
+.hello {
+    font-size: 65px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: right;
+}
+
+.new {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.buttons button {
+    /* background-color: #4CAF50; */
+    /* color: #fff; */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 22px;
+    cursor: pointer;
+   margin: 0 3 px;
+   font-weight: bold;
+   margin-top: 25px;
+   text-decoration: none;
+   
+}
+.buttons button a{
+    text-decoration: none;
+}
+.devpic img {
+    height: 58vh;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: end;
+    flex-direction: column; 
+    margin-bottom: 50px;
+}
+.contact{
+         font-family: 'Times New Roman', Times, serif;
+         padding-top: 144px;
+         padding: 0 34px;
+}
+.contact h1{
+    text-align: center; 
+}
+.contact form div{
+      padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.contact form div input{
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px;
+    padding: 3px;
+}
+#email{
+    font-size: 8px;
+    color: rgb(57, 44, 44);
+    margin: 0 5px;
+}
+
+
+
